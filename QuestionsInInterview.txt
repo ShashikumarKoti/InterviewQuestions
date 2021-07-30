@@ -1,0 +1,96 @@
+Java 8:
+=========
+1. What are Functional interfaces? Can u write sample program for it and call it using lambada expression
+2. Why we have lambda expressions? and How does it improve performance ?
+3. What are inbuilt functional interfaces provided by Java 8?
+4. What is Optional? 
+5. How do you iterate list/map in Java 8?
+6. Difference betweem map and flatmap ?
+7. What is the difference between Intermediate and Terminal Operations in Stream?
+8. Sample program in java 8 to compare employee object based on salary and age and department?
+
+
+
+General Java queations:
+======================
+1. Difference between comparable and comparator?
+2. HashMap/HashSet working?
+3. How to create Immutable class?
+4. Design patterns which you are aware of ?
+5. How singleton design pattern can be broken and what has to be done to make sure singleton class in not broken?
+6. Difference between newFixedThreadPool and newCachedPool in executive framework?
+7. How ConcurrentHashMap works ?
+8. How to make HashMap to allow duplicate 'keys'?
+9. JVM architecture?
+10. Different memory areas in JVM?
+11. Methods in Object class?
+12. When to use Callable?
+13. If try block has return statement, then will finally block get executed ?
+14. When to go for SQL and when to use NoSQL
+15. Have to faced memory leaks in your project and how to identified them ?
+
+
+
+SpringBoot/Microservices
+=============================
+1. Advantage of Springboot over Spring?
+2. Use of @SpringBootApplication annotation?
+3. Different annotation used in springboot?
+4. How to do transaction management in springboot?
+5. How to services communicate with each other?
+6. How exceptions are handled in springboot?
+7. How to make an object as prototype in springboot?
+8. How to configure mulitple DBs in springboot and use based on requirement ? ex: in dev we need oracle, in staging we need Mongo etc..
+9. How to read configuration from properties file?
+10. What is dependency injection?
+11. How jdbc object is created in springboot
+12. Difference between Configuration and EnableConfiguration
+13. How Token is validated.
+14. How session open and closed in SpringBootJPA and how transaction is managed
+15. How gateway works in microservices
+16. What are filters in springboot?
+17. What will happen if one of the microservices which we are calling goes down?
+18. How do you make sure data is in sync across all datacentres in a database?
+19. How authentication and authoization works?
+20. Are you using any Caching mechanism in your application ? (Ex: Redis cache)
+21. Have you used Zuul ?
+22. How to have different configurations for different environments in Springboot?
+23. Advantage of SpringBootJPA over Hibernate?
+24. Use of @RestController annotation?
+25. Use of @ResponseEntity annotation?
+26. Difference between PUT and POST ?
+27. What is the use of PATCH ?
+28. Difference between get() and load() in hibernate?
+29. Use of API gateway?
+30. How data is in sync between different microservices ?
+
+General questions/programs
+==========================
+1. Imagine I want to read some data from a file(ex: the file will be updated with large amount of events/notifications every sec) ? Which collection will you use for this requirement?
+2. Find the second highest occured word in a sentence
+3. Write a query to find 2nd highest salary? 
+4. Design a Parking Lot (each floor should show how mant vacancies are availble and in which number a vehicle can be parked)? :)
+5. General queries on JOINS in sql ?
+6. Have you worked on database optimization?
+7. Write a program(WAP) to print even and odd numbers by two threads ? One thread shd print even and other thread shd print odd number?
+8. WAP for Fibonnacci series?
+9. // I/P:  -7, -8, 0, -32, 5, 29
+   // O/P:  -7, -8, 0, -32, 5, 29  [swapping numbers in between apart from 1st and last num]
+10. Design an ATM machine?
+11. Find second highest occured word in a sentence?
+12. // I/p: { 1, 0, -3, 0, 0, 5 };
+	// O/p : {0,0,0,1,-3,5}   (all zeros first and after that order of other numbers should be maintained)
+13. Programs on Matrix  : https://www.knowprogram.com/java/matrix-programs-in-java/
+14. How to do process a file of 220GB, when your application size itself is 1GB?
+15. How transaction management happens between microservices ? What are different propogation levels ?
+16. Is bean created by SpringBoot threadsafe ? Justify
+17. SQL query to delete parent table records and child table records
+18. Give a sequence of numbers 2,4,3,1,5,7,8,78,67…. Identify pairs which will form a sum=5.
+19. How do you make sure 'n' threads access 'n' resources without going to deadlock situation?
+20. Is Java pass by value or pass by reference ?
+21. Difference between JPA and hibernate ?
+22. How to make our class behave as static ? Ans: Make constructor private
+
+
+
+		
